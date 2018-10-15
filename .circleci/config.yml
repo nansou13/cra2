@@ -46,6 +46,10 @@ jobs:
       - run: 
           name: Run Test and Coverage
           command: npm run test
+      
+      - run: 
+          name: echo mes rouilles
+          command: echo $CIRCLE_REPOSITORY_URL
 
       - deploy:
           name: Deploy
