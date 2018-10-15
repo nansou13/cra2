@@ -1,22 +1,8 @@
 language: node_js
-node_js:
-  - '5'
-  - ‘4’
 
 # échoue dès qu'une erreur intervient
 matrix:
   fast_finish: true
-
-# met en cache node_modules, à noter que dans ce genre d’utilisation pour des
-# bibliothèques open source consommées via npm, il ne faudra pas oublier
-# npm prune utilisé ci-après, histoire de ne pas lancer des tests avec
-# des paquets encore en cache mais non présents dans le package.json
-cache:
-  directories:
-    - node_modules
-
-before_install:
-  - npm prune
 
 # ici on peut mettre des commandes à utiliser avec le script
 before_script:
