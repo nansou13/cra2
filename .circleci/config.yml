@@ -40,3 +40,7 @@ jobs:
           name: Run Test and Coverage
           command: npm run test
 
+      - run:
+          name: Run script sh
+          command: sudo sh scripts/deploy.sh
+
