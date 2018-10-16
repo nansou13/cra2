@@ -1,6 +1,17 @@
 {
   "name": "test_cra2",
   "version": "0.1.0",
+  "description": "Site basé sur create-react-app version 2, utilisé pour du sandbox",
+  "homepage": "https://nansou13.github.io/cra2",
+  "author": "Nans <nans@gigan.fr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nansou13/cra2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nansou13/cra2/issues"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.5.2",
